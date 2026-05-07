@@ -1,28 +1,28 @@
 class Hmx < Formula
   desc "A new UX layer for the terminal, built on tmux"
   homepage "https://github.com/honeymux/honeymux"
-  version "0.105.0"
+  version "0.106.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/honeymux/honeymux/releases/download/v0.105.0/hmx-darwin-arm64"
-      sha256 "7642286761b72737a415289cfaf16eb9ef8e02c5db5887eb2e5bacb38665a872"
+      url "https://github.com/honeymux/honeymux/releases/download/v0.106.0/hmx-darwin-arm64"
+      sha256 "22e02e8c7c50259c87ab085d2bdc6420ebec81a7bdbeaf2bec45090ca7c673ac"
     end
     on_intel do
-      url "https://github.com/honeymux/honeymux/releases/download/v0.105.0/hmx-darwin-x64"
-      sha256 "60c4d50a9566419ce2bd36b7cc1269db20485d0f30a5fe37a256e89bd5025fd8"
+      url "https://github.com/honeymux/honeymux/releases/download/v0.106.0/hmx-darwin-x64"
+      sha256 "c589db3a93fa0b16794bdf7b3a8fc731a085887fb217de1d6b062b203ad0da9a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/honeymux/honeymux/releases/download/v0.105.0/hmx-linux-arm64"
-      sha256 "366bb23de9b443e3fe0a93408289d08279b08cf85ebb450593f7d132deb4f2e2"
+      url "https://github.com/honeymux/honeymux/releases/download/v0.106.0/hmx-linux-arm64"
+      sha256 "6cbb836ac03322bd84daa62718738ab4e191aa743e0eba1392f9006185ea1681"
     end
     on_intel do
-      url "https://github.com/honeymux/honeymux/releases/download/v0.105.0/hmx-linux-x64"
-      sha256 "2b0bd3aec336ac3b87394ff866c1bf56515da3896888ebb9ba872fbd09908ce9"
+      url "https://github.com/honeymux/honeymux/releases/download/v0.106.0/hmx-linux-x64"
+      sha256 "a82ab73b00ba8f43c47d033cea763f948295e68684daa28fd7dcde17a4276cbd"
     end
   end
 
